@@ -1,0 +1,13 @@
+pip install flask
+pip install mysql-connector-python
+pip install flask-mysqldb
+
+Database Design:
+Database name: bigmart
+tables: contact,users
+
+In contact table:
+    fields: name,email,message
+
+In users table:
+    fields: id,name,email,password

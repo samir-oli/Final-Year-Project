@@ -1,0 +1,261 @@
+{% include 'components/header.html' %}
+<style>
+
+</style>
+<body>
+{% include 'components/auth_topheader.html' %}
+{% include 'components/middle-header.html' %}
+{% include 'components/navbar.html' %}
+    <!-- main-slider -->
+    <ul id="demo1">
+      <li>
+        <img src="../static/images/11.jpg" alt="" />
+        <!--Slider Description example-->
+        <div class="slide-desc">
+          <h3>Unlock the power of foresight: Predict sales trends with precision</h3>
+          <a href="{{ url_for('predict') }}">
+          <button type="button" class="btn btn-primary">Get Sales Predictions</button></a>
+  </div>
+  
+</div>
+        </div>
+      </li>
+      <li>
+        <img src="../static/images/22.jpg" alt="" />
+        <div class="slide-desc">
+          <h3>Stay ahead of the curve: Accurate sales forecasting at your fingertips</h3>
+          <a href="{{ url_for('predict') }}"></a>
+          <button type="button" class="btn btn-primary">Get Sales Predictions</button>
+          </a>
+        </div>
+      </li>
+
+      <li>
+        <img src="../static/images/44.jpg" alt="" />
+        <div class="slide-desc">
+          <h3>Maximize profits effortlessly: Anticipate sales fluctuations with ease</h3>
+          <a href="{{ url_for('predict') }}">
+          <button type="button" class="btn btn-primary">Get Sales Predictions</button>
+          </a>
+          </div>
+        </li>
+        </div>
+      </li>
+    </ul>
+    <!-- //main-slider -->
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <a href="/">
+            <img class="first-slide" src="../static/images/b1.jpg" alt="First slide"
+          /></a>
+        </div>
+        <div class="item">
+          <a href="/">
+            <img class="second-slide" src="../static/images/b3.jpg" alt="Second slide"
+          /></a>
+        </div>
+        <div class="item">
+          <a href="/"
+            ><img class="third-slide" src="../static/images/b1.jpg" alt="Third slide"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!-- /.carousel -->
+    <!--banner-bottom-->
+    <!-- <div class="ban-bottom-w3l">
+      <div class="container">
+        <div class="col-md-6 ban-bottom3">
+          <div class="ban-top">
+            <img src="../static/images/p2.jpg" class="img-responsive" alt="" />
+          </div>
+          <div class="ban-img">
+            <div class="ban-bottom1">
+              <div class="ban-top">
+			</div>
+			<img src="../static/images/p3.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="ban-bottom2">
+              <div class="ban-top">
+			</div>
+			<img src="../static/images/p4.jpg" class="img-responsive" alt="" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="col-md-6 ban-bottom">
+          <div class="ban-top">
+		</div>
+		<img src="../static/images/111.jpg" class="img-responsive" alt="" />
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </div> -->
+    <!--banner-bottom-->
+
+    <!-- //footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="w3_footer_grids">
+          <div class="col-md-3 w3_footer_grid">
+            <h3>Contact</h3>
+
+            <ul class="address">
+              <li>
+                <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i
+                >Bijaychowk,Gaushala<span>Kathmandu</span>
+              </li>
+              <li>
+                <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i
+                ><a href="mailto:info@example.com">salesprediction@gmail.com</a>
+              </li>
+              <li>
+                <i class="glyphicon glyphicon-earphone" aria-hidden="true"></i
+                >+1234 567 567
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 w3_footer_grid">
+            <h3>Information</h3>
+            <ul class="info">
+              <li>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i
+                ><a href="/about">About Us</a>
+              </li>
+              <li>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i
+                ><a href="/contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 w3_footer_grid">
+            <h3>What We Do?</h3>
+            <ul class="info">
+              <li>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i
+                ><a href="/predict">Sales Prediction</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 w3_footer_grid">
+            <h3>Profile</h3>
+            <ul class="info">
+              <li>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i
+                ><a href="products.html">My Profile</a>
+              </li>
+              <li>
+                <i class="fa fa-arrow-right" aria-hidden="true"></i
+                ><a href="checkout.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <div class="footer-copy">
+        <div class="container">
+          <p>
+            © 2017 Super Market. All rights reserved | Design by
+            <a href="http://w3layouts.com/">W3layouts</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-botm">
+      <div class="container">
+        <div class="w3layouts-foot">
+          <ul>
+            <li>
+              <a href="#" class="w3_agile_facebook"
+                ><i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="agile_twitter"
+                ><i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="w3_agile_dribble"
+                ><i class="fa fa-dribbble" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="w3_agile_vimeo"
+                ><i class="fa fa-vimeo" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="payment-w3ls">
+          <img src="../static/images/card.png" alt=" " class="img-responsive" />
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- //footer -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../static/js/bootstrap.min.js"></script>
+
+    <!-- top-header and slider -->
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+        $().UItoTop({ easingType: "easeOutQuart" });
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+    <script src="../static/js/minicart.min.js"></script>
+    <script>
+      // Mini Cart
+      paypal.minicart.render({
+        action: "#",
+      });
+
+      if (~window.location.search.indexOf("reset=true")) {
+        paypal.minicart.reset();
+      }
+    </script>
+    <!-- main slider-banner -->
+    <script src="../static/js/skdslider.min.js"></script>
+    <link href="../static/css/skdslider.css" rel="stylesheet" />
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+        jQuery("#demo1").skdslider({
+          delay: 5000,
+          animationSpeed: 2000,
+          showNextPrev: true,
+          showPlayButton: true,
+          autoSlide: true,
+          animationType: "fading",
+        });
+
+        jQuery("#responsive").change(function () {
+          $("#responsive_wrapper").width(jQuery(this).val());
+        });
+      });
+    </script>
+    <!-- //main slider-banner -->
+  </body>
+</html>
